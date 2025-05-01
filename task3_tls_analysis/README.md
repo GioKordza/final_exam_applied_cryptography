@@ -11,3 +11,4 @@ This task inspects a live TLS connection using OpenSSL and analyzes the handshak
 
 - OpenSSL: Inspect certificate and cipher via `openssl s_client -connect google.com:443`
 - Wireshark: (To be added by student with handshake screenshots)
+ECHO is on.
