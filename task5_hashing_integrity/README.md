@@ -23,3 +23,4 @@ This task demonstrates how to use cryptographic hash functions (SHA-256, SHA-1, 
 SHA-256 Check: FAIL  
 SHA-1 Check: FAIL  
 MD5 Check: FAIL
+ECHO is on.
