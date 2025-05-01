@@ -19,3 +19,4 @@ This task demonstrates the use of digital signatures and encryption for secure e
 3. The decrypted content matches the original, confirming authenticity and integrity.
 
 *In real scenarios, tools like GPG or OpenSSL would be used to generate and verify the signature.*
+ECHO is on.
