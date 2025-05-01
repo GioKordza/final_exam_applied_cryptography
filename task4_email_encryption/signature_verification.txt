@@ -1,0 +1,11 @@
+# Signature Verification Explanation
+
+The digital signature proves that the message originated from Alice and has not been tampered with.
+
+How it works:
+1. Alice signs the message using her private key.
+2. Bob uses Alice’s public key to verify the signature.
+3. If the hash from the message matches the signed hash, the signature is valid.
+4. This ensures authenticity (it’s really from Alice) and integrity (the message wasn’t changed).
+
+The file `signed_message.asc` contains the signed content and PGP signature block.
