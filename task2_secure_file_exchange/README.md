@@ -27,3 +27,4 @@ This task demonstrates secure file transmission using a hybrid encryption model:
 3. Alice encrypts the AES key using Bob's public key.
 4. Bob decrypts the AES key and then the message.
 5. Hash comparison verifies the integrity of the decrypted file.
+ECHO is on.
