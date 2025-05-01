@@ -1,0 +1,25 @@
+# TLS Summary
+
+## TLS Version
+TLS 1.3
+
+## Cipher Suite Used
+TLS_AES_256_GCM_SHA384
+
+## Certificate Chain
+- Issuer: Google Trust Services (Intermediate)
+- Subject: *.google.com (Leaf Certificate)
+- Root CA: Not shown (common with OpenSSL client)
+
+## How TLS Provides Confidentiality
+TLS uses asymmetric encryption (e.g., ECDSA, RSA) during the handshake to securely exchange a symmetric session key.
+That symmetric key is then used for all further communication, typically via AES in GCM or CBC mode, which encrypts the data so no third party can read it.
+
+## How TLS Ensures Integrity
+TLS 1.3 uses AEAD cipher suites like AES-GCM that combine encryption and integrity.
+GCM mode ensures that if the data is altered in any way during transmission, the recipient can detect it and reject the message.
+
+## Tools Used
+- OpenSSL command:
+  `openssl s_client -connect google.com:443`
+- Screenshot: openssl_output.png
